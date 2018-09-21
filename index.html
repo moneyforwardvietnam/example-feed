@@ -2,11 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Coding Challenge</title>
+    <title>Mobile App Engineer Coding Challenge</title>
     <!--<link rel="stylesheet" href="style.css">-->
     <!--<script src="script.js"></script>-->
 </head>
 <body>
-  Challenge!
+    <h1>Mobile App Engineer Coding Challenge</h1>
+    <h2>iOS</h2>
+    Create iOS application.<br />
+    NOTE: Please refrain from releasing it to public so that everyone has equal opportunities.
+    <h3>Requirements</h3>
+    <ul>
+        <li>Deployment target: 10.0</li>
+    </ul>
+    <h3>Details</h3>
+    <ul>
+        <li>Draw JSON Data on View</li>
+        <ul>
+            <li>Use response from calling actual <a href="https://moneyforwardvietnam.github.io/example-feed/feed.json">API</a></li>
+        </ul>
+        <li>You may use any architecture, for example: MVC, MVVM, MVP, Clean Architecture, etc.</li>
+        <li>You may use OSS libraries.</li>
+        <li>You have to use UITableView or UICollectionView</li>
+    </ul>
+    <pre>
+    API:
+    GET https://moneyforwardvietnam.github.io/example-feed/feed.json
+    Response:
+    {
+      “articles”: [
+    {
+      “title”: “title1”,
+      “description”: “description1”,
+      “image”: “https://xxxxx.xxxx.xxx/image.png”,
+      “detail”: “detail1”
+    },
+    {
+      “title”: “title2”,
+      “description”: “description2”,
+      “image”: “https://xxxxx.xxxx.xxx/image.png”,
+      “detail”: “detail2”
+    },
+    …
+    </pre>
+    <h3>Specification</h3>
+      <img src="images/app-requirement.png" />
+    <h2>Android</h2>
+    Create Android application.
+    <h3>Requirements</h3>
+    <ul>
+        <li>API Level 26 (Android 8.0) or higher</li>
+    </ul>
+    <h3>Details</h3>
+    <ul>
+        <li>Draw JSON Data on View</li>
+        <ul>
+            <li>Use response from calling actual <a href="https://moneyforwardvietnam.github.io/example-feed/feed.json">API</a></li>
+        </ul>
+        <li>You may use any architecture, for example: MVC, MVVM, MVP, Clean Architecture, etc.</li>
+        <li>You may use OSS libraries.</li>
+        <li>You have to use ListView or RecyclerView or GridView</li>
+    </ul>
+    <pre>
+    API:
+    GET https://moneyforwardvietnam.github.io/example-feed/feed.json
+    Response:
+    {
+      “articles”: [
+    {
+      “title”: “title1”,
+      “description”: “description1”,
+      “image”: “https://xxxxx.xxxx.xxx/image.png”,
+      “detail”: “detail1”
+    },
+    {
+      “title”: “title2”,
+      “description”: “description2”,
+      “image”: “https://xxxxx.xxxx.xxx/image.png”,
+      “detail”: “detail2”
+    },
+    …
+    </pre>
+    <h3>Specification</h3>
+    <img src="images/app-requirement.png" />
 </body>
 </html>
